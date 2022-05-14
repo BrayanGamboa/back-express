@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 //Routes
-app.use(require("./routes/routs"));
+app.use(require("./src/routes/routs"));
 
 //Iniciando el servidor
 app.listen(app.get("port"), () => {
